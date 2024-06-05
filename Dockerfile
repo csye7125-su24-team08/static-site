@@ -8,7 +8,7 @@ RUN mkdir -p /srv
 COPY index.html /srv/index.html
 
 # Expose Caddy's default HTTP port
-EXPOSE 80
+EXPOSE 8080
 
 # Copy Caddyfile to the container
 COPY Caddyfile /etc/caddy/Caddyfile
