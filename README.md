@@ -1,3 +1,3 @@
 # Static Site
 
-This repo will be built on jenkins
+This repo will be built on jenkins using seedjob
