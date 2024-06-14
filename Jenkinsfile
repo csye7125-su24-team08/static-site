@@ -3,7 +3,7 @@ pipeline {
     DOCKER_CLI_EXPERIMENTAL = 'enabled'
     registry = 'dongrep/static-site'
     gitCredential = 'github-credentials'
-    DOCKERHUB_CREDENTIALS = credentials('docker-credentials')
+    DOCKERHUB_CREDENTIALS = credentials('DOCKER_CREDENTIALS')
   }
   agent any
   stages {
