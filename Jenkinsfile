@@ -2,7 +2,7 @@ pipeline {
   environment {
     DOCKER_CLI_EXPERIMENTAL = 'enabled'
     registry = 'dongrep/static-site'
-    gitCredential = 'github-credentials'
+    gitCredential = 'GITHUB_CREDENTIALS'
     DOCKERHUB_CREDENTIALS = credentials('DOCKER_CREDENTIALS')
   }
   agent any
